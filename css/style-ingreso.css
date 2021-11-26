@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* Inicio Barra Superior y Navbar */
+#barra_superior{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 40px;
+    background-color: #1CD1B0;
+    padding: 10px;
+}
+
+#barra_inferior{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 60px;
+    background-color: #00669F;
+}
+
+#texto_superior{
+    margin-top:  5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-weight: bolder;
+
+}
+
+h2{
+    margin-top:  15px;
+    margin-left: 25px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #001D2D;
+}
+
+li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* Fin Navbar */
+
+/* Inicio Formulario */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;   
+    position: relative;;
+}
+
+.titulo-form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1{
+    margin-left: 15px;
+    font-size: 35px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.input-group{
+    display: block;
+    width:100%;
+    margin-top: 20px;
+    margin-left: 2px;
+    padding: 10px;
+    height: 50%;
+}
+
+.input-group:focus{
+    border: 5px solid orange;
+}
+
+#ingresa{
+    color: rgb(64, 115, 224);
+    
+}
+
+.button-group{
+    width: 80%;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.pregunta{
+    margin-top: 20px;
+}
+
+#color-enviar{
+    margin-top: 20px;
+    text-align-last: center;
+    font-weight: bold;
+    background-color: #1CD1B0;  
+  
+}
+/* Fin Formulario */
+
+/* Inicio Footer */
+#footer_pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #00669F;
+    width: 100%;
+    height: 100px;
+}
+
+#texto_footer{
+    color: white;
+    font-weight: bold;
+}
+
+#texto_Github{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#texto_Git{
+    margin-right: 0%;
+}
+ */ Fin Footer */
